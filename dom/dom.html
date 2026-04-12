@@ -1,0 +1,114 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>dom elements</title>
+		<style>
+			body {
+				background-color: #1a1a1a;
+				color: #fff;
+				text-align: center;
+			}
+			.highlight {
+				background-color: yellow;
+				font-weight: bold;
+				color: #1a1a1a;
+			}
+			.hidden {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Javascript dom fun examples</h1>
+		<!-- Ex1 Accesing Dom elements -->
+		<section id="example-1">
+			<h2>Accesing dom elements</h2>
+			<p id="MyParagraph">This is paragraph click the button to change me</p>
+			<button id="ChangeTextButton">Change Text</button>
+		</section>
+
+		<!-- Ex2 Traversing the Dom -->
+		<section id="example-2">
+			<h2>Traversing The DOM</h2>
+			<ul id="citieslist">
+				<li>London</li>
+				<li>Paris</li>
+				<li>Tokyo</li>
+				<li>New York</li>
+			</ul>
+			<button id="highlightFirstCity">Highlight First City</button>
+		</section>
+
+		<!-- Ex3 Manipulating DOM Elements -->
+
+		<section id="example-3">
+			<h2>Manipulating Dom Elements</h2>
+			<div id="coffeeOrder">Order :<span id="coffeetype">Latte</span></div>
+			<button id="change order">Change Coffee to Espresso</button>
+		</section>
+
+		<!-- Ex4 Creating and inserting an element -->
+		<section id="example-4">
+			<h2>Creating and inserting an element</h2>
+			<button id="addnewItem">Add a new item to shopping list</button>
+			<ul id="shoppinglist">
+				<li>Bread</li>
+				<li>Milk</li>
+			</ul>
+		</section>
+		<!-- Ex5 Removing Dom Elements -->
+		<section id="EXAMPLE-5">
+			<h2>REMOVING dom elements</h2>
+			<ul id="taskList">
+				<li>Task1</li>
+				<li>Task2</li>
+				<li>Task3</li>
+			</ul>
+			<button id="removeLastItem">Remove Last Task</button>
+		</section>
+
+		<!-- Ex6 Event Handling in the DOM -->
+		<section id="example-6">
+			<h2>Event Handling in DOM</h2>
+			<button id="ClickMeButton">Click ME!!</button>
+		</section>
+
+		<!-- Ex7 Event Delegation -->
+		<section id="example-7">
+			<h2>Event Delegation</h2>
+			<ul id="tealist">
+				<li class="teaitem">Green Tea</li>
+				<li class="teaitem">Black Tea</li>
+				<li class="teaitem">Oolong Tea</li>
+				<p>Click on any Tea to select it!!</p>
+			</ul>
+		</section>
+
+		<!-- Ex8 Form Handling -->
+		<section id="example-8">
+			<h2>Form Handling</h2>
+			<form id="feedbackForm">
+				<label for="feedbackInput">Your Feedback:</label>
+				<input type="text" id="feedbackInput" placeholder="Enter Feedback" />
+				<button type="submit">Submit Feedback</button>
+			</form>
+			<p id="FeedbackDisplay"></p>
+		</section>
+
+		<!-- Ex9 DOM Content Loaded -->
+		<section id="example-9">
+			<h2>DOM Content Loaded</h2>
+			<p id="domStatus">Waiting For DOM to Load</p>
+		</section>
+
+		<!-- Ex10 CSS Classes Manipulation -->
+		<section id="example-10">
+			<h2>CSS Classes Manipulation</h2>
+			<p id="descriptionText">This text Will Change color</p>
+			<button id="toggleHighlight">Toggle Highlight</button>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
